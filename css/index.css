@@ -1,0 +1,52 @@
+header {
+    align-items: center;
+    background-image: radial-gradient(circle at 50% -20.71%, #97bdff 0, #3c78f2 50%, #003886 100%);
+    border: 10px solid #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+h1{
+    font-family: 'Press Start 2P', sans-serif;
+    color: #fff;
+    text-shadow: 5px 5px 0px #000;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-family: 'Fira Code', Arial, Helvetica,sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+a::before {
+    content: "";
+    background-image: radial-gradient(circle at 50% -20.71%, #be5af5 0, #a04ff4 16.67%, #7944f3 33.33%, #3c3cf2 50%, #0037f1 66.67%, #0034ef 83.33%, #0034ee 100%);
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    
+}
+#button {
+    background-image: radial-gradient(circle at 50% -20.71%, #97bdff 0, #3c78f2 50%, #003886 100%);
+    box-shadow: 5px 5px 0px #000000;
+    display: inline-block;
+    padding: 18px 20px;
+    margin-right: 0px;
+    transition: transform 100ms linear;
+}
+
+#button:hover {
+    transform: scale(1.08);
+    
+}
+
