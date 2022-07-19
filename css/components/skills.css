@@ -1,0 +1,14 @@
+.skills {
+    background-image: radial-gradient(circle at 50% -20.71%, #97bdff 0, #3c78f2 50%, #003886 100%);
+    border-bottom: 10px solid #000;
+    
+}
+
+.skills .subtitle {
+    text-align: center;
+    font-weight: 400;
+    size: 40px;
+    line-height: 40px;
+
+}
+
